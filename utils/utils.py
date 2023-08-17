@@ -5,7 +5,7 @@ import sys
 from fuzzywuzzy import process
 sys.path.append('/mnt/workspace/DocVQA/src')
 from vectorstore import faiss
-from utils import imath
+import imath
 
 class Config:
     model_path = '/mnt/workspace/DocVQA/resource/指标模版.xlsx'
